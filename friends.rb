@@ -1,6 +1,11 @@
-name_bf = "Nick"
-if name_bf == "Nick"
-  puts "Hello Nick"
+name = "Nick"
+name = "Frank"
+name = "Paul"
+
+if name == "Nick"
+  puts "Hello Best Friend!"
+elsif name == "Frank"
+  puts "Hey Frank."
 else
-  puts "Hello stranger"
+  puts "Hello friend..."
 end
